@@ -1,0 +1,6 @@
+{
+  "name": "IntroVideo",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./IntroVideo.js"
+}

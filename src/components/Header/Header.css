@@ -7,14 +7,19 @@
 }
 
 .Header {
-  background: #373277;
+  position: absolute;
+  top: 0;
+  background: rgba(30,30,30, .2);
   color: #fff;
+  z-index: 1;
+  width: 100%;
 }
 
 .Header-container {
   margin: 0 auto;
   padding: 20px 0;
   max-width: var(--max-content-width);
+  height: 110px;
 }
 
 .Header-brand {
@@ -24,11 +29,16 @@
 }
 
 .Header-brandTxt {
-  margin-left: 10px;
+  font-family: Rancho;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  color: #F7F7F7;
+  line-height: 1.2em;
 }
 
 .Header-nav {
-  float: right;
+  text-align: center;
   margin-top: 6px;
 }
 

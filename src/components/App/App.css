@@ -166,3 +166,37 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+/* custom */
+
+h2.quick-blurb {
+  font-weight: 300;
+  margin: 40px 0 15px;
+}
+
+.subhead p {
+  font-size: 1.1em;
+}
+
+.category-item {
+  display: inline-block;
+  margin: 10px;
+  flex: 0 0 auto;
+}
+
+.category-item img {
+  width: 400px;
+
+}
+
+.category-item div {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.category-list {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+}

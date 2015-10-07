@@ -7,6 +7,8 @@ import withStyles from '../../decorators/withStyles';
 import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
+import IntroVideo from '../IntroVideo';
+import CallToAction from '../CallToAction';
 
 @withContext
 @withStyles(styles)
@@ -21,8 +23,9 @@ class App extends Component {
     return !this.props.error ? (
       <div>
         <Header />
+        <IntroVideo />
+        <CallToAction />
         {this.props.children}
-        <Feedback />
         <Footer />
       </div>
     ) : this.props.children;

@@ -1,20 +1,27 @@
 /* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
 
+@import '../variables.css';
+
+:root {
+  --grey: rgba(255, 255, 255, .8);
+}
+
 .Navigation-link {
   display: inline-block;
   padding: 3px 8px;
   text-decoration: none;
-  font-size: 1.125em; /* ~18px */
+  font-size: 1.25em; /* ~18px */
+  color: #8380B4;
 }
 
 .Navigation-link,
 .Navigation-link:active,
 .Navigation-link:visited {
-  color: rgba(255, 255, 255, .6);
+  color: var(--grey);
 }
 
 .Navigation-link:hover {
-  color: rgba(255, 255, 255, 1);
+  color: var(--yellow);
 }
 
 .Navigation-link--highlight {
@@ -31,4 +38,32 @@
 
 .Navigation-spacer {
   color: rgba(255, 255, 255, .3);
+}
+
+.Navigation .social-networks {
+  float: left;
+  line-height: 34px;
+}
+
+.Navigation .social-networks a {
+  color: var(--grey);
+  font-size: 22px;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.Navigation .phone {
+  float: right;
+  line-height: 34px;
+  color: var(--grey);
+}
+
+.Navigation .phone a {
+  color: inherit;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.Navigation .phone a:hover, .Navigation .social-networks a:hover {
+  color: var(--yellow);
 }
