@@ -9,7 +9,6 @@ import Feedback from '../Feedback';
 import Footer from '../Footer';
 import IntroVideo from '../IntroVideo';
 import CallToAction from '../CallToAction';
-import CollaborationForm from '../CollaborationForm';
 
 @withContext
 @withStyles(styles)
