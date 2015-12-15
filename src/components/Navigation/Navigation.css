@@ -21,7 +21,7 @@
 }
 
 .Navigation-link:hover {
-  color: var(--yellow);
+  color: color(var(--yellow) lightness(+90%));
 }
 
 .Navigation-link--highlight {
@@ -65,5 +65,5 @@
 }
 
 .Navigation .phone a:hover, .Navigation .social-networks a:hover {
-  color: var(--yellow);
+  color: color(var(--yellow) lightness(+90%));
 }
