@@ -29,6 +29,7 @@
   font-size: 28px;
   text-align: center;
   transition: all .2s ease-out;
+  cursor: pointer;
 }
 
 .calls-to-action div:hover {

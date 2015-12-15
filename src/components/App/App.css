@@ -169,13 +169,34 @@ textarea {
 
 /* custom */
 
+h3 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+.main-summary {
+  margin: 20px 0 0;
+}
+
 h2.quick-blurb {
+  font-size: 30px;
   font-weight: 300;
   margin: 40px 0 15px;
 }
 
+.progress-link {
+  margin: 0 0 15px;
+}
+
+.progress-link a {
+  font-size: 24px;
+}
+
 .subhead p {
-  font-size: 1.1em;
+  font-size: 24px;
 }
 
 .category-item {
@@ -199,4 +220,21 @@ h2.quick-blurb {
   align-items: flex-end;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.calendar-area {
+  margin-top: 20px;
+}
+
+.flyer-img {
+  margin: 15px 15px;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 80%;
+}
+
+.flyers {
+  background: color(var(--yellow) lightness(+20%));
+  margin: 0 auto;
+  text-align: center;
 }

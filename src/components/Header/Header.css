@@ -7,12 +7,13 @@
 }
 
 .Header {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
-  background: rgba(30,30,30, .2);
+  background: var(--yellow); /*rgba(30,30,30, .3);*/
   color: #fff;
   z-index: 1;
   width: 100%;
+  border-bottom: 1px solid color(var(--yellow) lightness(-10%));
 }
 
 .Header-container {

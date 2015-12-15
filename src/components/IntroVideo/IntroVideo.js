@@ -15,7 +15,7 @@ class IntroVideo extends Component {
   }
 
   componentDidMount() {
-    var video = React.findDOMNode(this.refs.video);
+    var video = this.refs.video;
     video.currentTime = 2;
     video.play();
   }

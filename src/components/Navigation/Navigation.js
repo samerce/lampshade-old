@@ -27,7 +27,7 @@ class Navigation extends React.Component {
           <a className="Navigation-link icon" href="https://twitter.com/ypsilampshade" target="_blank"><i className="fa fa-twitter"></i></a>
         </div>
         <div className="phone">
-          <a className="Navigation-link" href="tel:4156767483">(415) 676-7483</a>
+          <a className="Navigation-link" href="tel:7346568617">(734) 656-8617</a>
         </div>
       </div>
     );
