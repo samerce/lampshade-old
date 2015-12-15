@@ -24,7 +24,7 @@ class App extends Component {
       <div>
         <Header />
         <div className="flyers">
-          {['opening', 'comedy', 'crystals'].map(name => (
+          {['opening', 'comedy', 'debate', 'crystals'].map(name => (
             <a href={`/img/flyer-${name}.jpg`}>
               <img className="flyer-img" src={`img/flyer-${name}.jpg`} />
             </a>
