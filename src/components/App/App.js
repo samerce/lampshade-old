@@ -23,13 +23,6 @@ class App extends Component {
     return !this.props.error ? (
       <div>
         <Header />
-        <div className="flyers">
-          {['opening', 'comedy', 'debate', 'crystals'].map(name => (
-            <a href={`/img/flyer-${name}.jpg`}>
-              <img className="flyer-img" src={`img/flyer-${name}.jpg`} />
-            </a>
-          ))}
-        </div>
         <IntroVideo />
         <CallToAction />
         {this.props.children}

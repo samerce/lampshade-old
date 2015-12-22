@@ -238,3 +238,31 @@ h2.quick-blurb {
   margin: 0 auto;
   text-align: center;
 }
+
+.opening-events-list-area {
+  background: color(var(--yellow) lightness(+20%));
+  padding: 20px 0;
+}
+
+.opening-header {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.opening-subheader {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.opening-events-list {
+  margin: 0 20%;
+}
+
+.day-title {
+  font-weight: 100;
+  font-size: 28px;
+  margin: 5px 0;
+  padding-top: 10px;
+}
