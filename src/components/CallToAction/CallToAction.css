@@ -22,7 +22,7 @@
 
 .calls-to-action div {
   position: relative;
-  flex: 0 0 50%;
+  flex: 1 0 auto;
   height: 90px;
   background: var(--yellow);
   line-height: 90px;
@@ -48,5 +48,9 @@
 
 .calls-to-action div:first-child {
   border-right: var(--btn-border);
+}
+
+.calls-to-action div:last-child {
+  border-left: var(--btn-border);
 }
 

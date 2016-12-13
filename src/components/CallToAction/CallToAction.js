@@ -23,10 +23,10 @@ class CallToAction extends React.Component {
           </form>
 
         </div>
+
+        <div className="patreon-link"><a href="https://www.patreon.com/lampshade" target="_blank">Become a Patron</a></div>
+
         <div><a href="https://docs.google.com/forms/d/1rGMoYCJrc8aMK6454FU-ssnCkVL2xXdhGWpEaFWXxUs/viewform" target="_blank">Collaborate with us!</a></div>
-
-
-
       </div>
     );
   }

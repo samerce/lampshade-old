@@ -17,6 +17,11 @@ class Header extends React.Component {
             <span className="Header-brandTxt">Lampshade</span>
           </a>
           <Navigation className="Header-nav" />
+          <div className="for-sale-container">
+            Lampshade has hit the road! Big things are brewing. Stay tuned for more magic...
+            <br />
+            Email us with questions/ideas at <a href="mailto:smile@lampshade.life">smile@lampshade.life</a>
+          </div>
         </div>
       </div>
     );

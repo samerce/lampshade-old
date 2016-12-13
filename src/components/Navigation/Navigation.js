@@ -20,14 +20,11 @@ class Navigation extends React.Component {
     //     <a className="Navigation-link" href="/register" onClick={Link.handleClick}>Blog</a>
     return (
       <div className={classNames(this.props.className, 'Navigation')} role="navigation">
-        <a className="Navigation-link" href="https://www.google.com/maps/place/Lampshade/@42.241299,-83.614931,17z/data=!3m1!4b1!4m2!3m1!1s0x883ca8473610acf3:0xb3f6b8690ef26ccb" target="_blank">206 W Michigan Ave, Ypsilanti, Michigan</a>
         <div className="social-networks">
           <a className="Navigation-link icon" href="mailto:smile@lampshade.life"><i className="fa fa-envelope"></i></a>
+          <a className="Navigation-link icon" href="http://ypsilampshade.tumblr.com"><i className="fa fa-tumblr"></i></a>
           <a className="Navigation-link icon" href="https://facebook.com/lampshade.life" target="_blank"><i className="fa fa-facebook"></i></a>
           <a className="Navigation-link icon" href="https://twitter.com/ypsilampshade" target="_blank"><i className="fa fa-twitter"></i></a>
-        </div>
-        <div className="phone">
-          <a className="Navigation-link" href="tel:7346568617">(734) 656-8617</a>
         </div>
       </div>
     );

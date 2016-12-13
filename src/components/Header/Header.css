@@ -20,7 +20,7 @@
   margin: 0 auto;
   padding: 20px 0;
   max-width: var(--max-content-width);
-  height: 110px;
+  height: 170px;
 }
 
 .Header-brand {
@@ -39,6 +39,7 @@
 }
 
 .Header-nav {
+  display: flex;
   text-align: center;
   margin-top: 6px;
 }
@@ -60,4 +61,14 @@
   color: rgba(255, 255, 255, .5);
   font-size: 1.25em;
   margin: 0;
+}
+
+.Header .for-sale-container {
+  text-align: center;
+  width: 100%;
+  padding: 10 0;
+}
+
+.Header .for-sale-text {
+  font-size: 32px;
 }
